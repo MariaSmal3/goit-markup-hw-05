@@ -642,13 +642,16 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
       flex-shrink: 0;
       fill: var(--main-cloud);
       }
-     /* Footer subscribe form styles */
+     /* Footer subscribe styles */
+     .footer-subscribe-form-container {
+      margin-left: auto;
+    }
      .subscribe-form {
        display: flex;
        gap: 24px;
-     }
+    }
   
-     .subscribe-form-title {
+     .subscribe-form-text {
        margin-bottom: 16px;
        color: var(--main-bg-white);
         font-weight: 500;
@@ -776,7 +779,7 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
                           .modal-close-btn:focus .close-modal-icon {
                             fill: var(--main-bg-white);
                             }
-/* Modal Order Service form styles */
+/* Modal  form styles */
 .modal-caption {
   margin-bottom: 16px;
   color: var(--main-dark-color);
