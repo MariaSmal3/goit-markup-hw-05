@@ -652,6 +652,8 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
     }
   
      .subscribe-form-text {
+      line-height: 1.5;
+      letter-spacing: 0.02em;
        margin-bottom: 16px;
        color: var(--main-bg-white);
         font-weight: 500;
@@ -669,7 +671,7 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
             font-weight: 500;
             font-size: 12px;
             line-height: 1.5;
-            letter-spacing: 0.02em;
+            letter-spacing: 0.04em;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
             transition: border-color var(--main-transition-duration-and-timing-function);
           }
